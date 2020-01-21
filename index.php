@@ -8,16 +8,16 @@
 </head>
 <!--header-->
 <?php include 'header.php'; ?>
+
 <main class="main">
     <div class="container page">
         <h1>Massage Praktijk Sense Reserveringen</h1>
 
     </div>
 </main>
-<footer class="footer">
-    <h1>Footer</h1>
-    <span>Test</span>
-    <p>Bye World!</p>
-</footer>
+
+<!--footer-->
+<?php include 'footer.php'; ?>
+
 </body>
 </html>
