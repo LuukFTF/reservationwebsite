@@ -80,6 +80,9 @@ $password = '';
     <input type="submit" name="submit" value="Register">
     </form>
 
+    </br>
+
+    <a href="/loginsystem/register.php"><h2>Account Register</h2></a>
 
 </main>
 

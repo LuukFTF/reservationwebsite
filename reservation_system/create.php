@@ -122,18 +122,18 @@ if (isset($_POST['submit'])) {
     <form
         action=""
         method="post"
-        <p>Customer ID: <input type="text" name="id_customer" value='<?=htmlspecialchars($reservation['id_customer'], ENT_QUOTES)?>'</p>
-        <p>E-Mail: <input type="text" name="email" value='<?=htmlspecialchars($reservation['email'], ENT_QUOTES)?>'></p>
-        <p>Massage type: <input type="text" name="massage_type" value='<?=htmlspecialchars($reservation['massage_type'], ENT_QUOTES)?>'></p>
-        <p>Date: <input type="text" name="date" value='<?=htmlspecialchars($reservation['date'], ENT_QUOTES)?>'></p>
-        <p>Begin Time: <input type="time" name="begin_time" value='<?=htmlspecialchars($reservation['begin_time'], ENT_QUOTES)?>'></p>
-        <p>Ending Time: <input type="time" name="ending_time" value='<?=htmlspecialchars($reservation['ending_time'], ENT_QUOTES)?>'></p>
-        <p>Status: <input type="text" name="status" value='<?=htmlspecialchars($reservation['status'], ENT_QUOTES)?>'></p>
-        <p>Customer Message: <textarea name="message_customer"><?=htmlspecialchars($reservation['message_customer'], ENT_QUOTES)?></textarea></p>
-        <p>Moderator Message: <textarea name="message_moderator"><?=htmlspecialchars($reservation['message_moderator'], ENT_QUOTES)?></textarea></p>
-        <p>Date Updated: <input type="text" name="date_created" value='<?=htmlspecialchars($reservation['date_created'], ENT_QUOTES)?>'></p>
-        <p>Date Updated: <input type="text" name="date_updated" value='<?=htmlspecialchars($reservation['date_updated'], ENT_QUOTES)?>'></p>
-        <p><input type="checkbox" name="tc" value="ok" value='<?=htmlspecialchars($tc, ENT_QUOTES)?>'> I accept the terms &amp; conditions </p>
+        <p>Customer ID: <input type="text" name="id_customer" value='<?=$id_customer?>'</p>
+        <p>E-Mail: <input type="text" name="email" value='<?=$email?>'></p>
+        <p>Massage type: <input type="text" name="massage_type" value='<?=$massage_type?>'></p>
+        <p>Date: <input type="text" name="date" value='<?=$date?>'></p>
+        <p>Begin Time: <input type="time" name="begin_time" value='<?=$begin_time?>'></p>
+        <p>Ending Time: <input type="time" name="ending_time" value='<?=$ending_time?>'></p>
+        <p>Status: <input type="text" name="status" value='<?=$status?>'></p>
+        <p>Customer Message: <textarea name="message_customer"><?=$message_customer?></textarea></p>
+        <p>Moderator Message: <textarea name="message_moderator"><?=$message_moderator?></textarea></p>
+        <p>Date Updated: <input type="text" name="date_created" value='<?=$date_created?>'></p>
+        <p>Date Updated: <input type="text" name="date_updated" value='<?=$date_updated?>'></p>
+        <p><input type="checkbox" name="tc" value="ok" value='<?=$tc?>'> I accept the terms &amp; conditions </p>
         <input type="submit" name="submit" value="Register Account">
     </form>
 
