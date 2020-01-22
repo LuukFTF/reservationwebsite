@@ -152,24 +152,24 @@ if (isset($_POST['submit'])) {
 
 
 <main class="main">
+    <div class="container page">
+        <h1>Account Register Page</h1>
 
-    <h1>Account Register Page</h1>
-
-    <form
-            action=""
-            method="post"
-    <p>Username: <input type="text" name="username" value='<?=$username?>'></p>
-    <p>Password: <input type="password" name="password" value='<?=$password?>'></p>
-    <p>E-Mail: <input type="text" name="email" value='<?=$email?>'></p>
-    <p>Name: <input type="text" name="name" value='<?=$name?>'></p>
-    <p>Last Name: <input type="text" name="last_name" value='<?=$last_name?>'></p>
-    <p>Phone Number: <input type="text" name="phone_number" value='<?=$phone_number?>'></p>
-    <p>Birthdate: <input type="date" name="birthdate" value='<?=$birthdate?>'></p>
-    <p>Woonplaats: <input type="text" name="woonplaats" value='<?=$woonplaats?>'></p>
-    <p><input type="checkbox" name="tc" value="ok" value='<?=$tc?>'> I accept the terms &amp; conditions </p>
-    <input type="submit" name="submit" value="Register">
-    </form>
-
+        <form
+                action=""
+                method="post"
+        <p>Username: <input type="text" name="username" value='<?=$username?>'></p>
+        <p>Password: <input type="password" name="password" value='<?=$password?>'></p>
+        <p>E-Mail: <input type="text" name="email" value='<?=$email?>'></p>
+        <p>Name: <input type="text" name="name" value='<?=$name?>'></p>
+        <p>Last Name: <input type="text" name="last_name" value='<?=$last_name?>'></p>
+        <p>Phone Number: <input type="text" name="phone_number" value='<?=$phone_number?>'></p>
+        <p>Birthdate: <input type="date" name="birthdate" value='<?=$birthdate?>'></p>
+        <p>Woonplaats: <input type="text" name="woonplaats" value='<?=$woonplaats?>'></p>
+        <p><input type="checkbox" name="tc" value="ok" value='<?=$tc?>'> I accept the terms &amp; conditions </p>
+        <input type="submit" name="submit" value="Register">
+        </form>
+    </div>
 
 </main>
 

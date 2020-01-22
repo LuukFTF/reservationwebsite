@@ -68,7 +68,7 @@ $password = '';
 
 
 <main class="main">
-
+    <div class="container page">
     <h1>Login Page</h1>
 
     <form
@@ -84,6 +84,7 @@ $password = '';
 
     <a href="/loginsystem/register.php"><h2>Account Register</h2></a>
 
+    </div>
 </main>
 
 

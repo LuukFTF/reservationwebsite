@@ -12,9 +12,11 @@
 <main class="main">
     <div class="container page">
         <h1>Massage Praktijk Sense Reserveringen</h1>
-
+        <a href="/reservation_system/create.php"><h2>Registreer Afspraak</h2></a>
     </div>
 </main>
+
+
 
 <!--footer-->
 <?php include 'footer.php'; ?>

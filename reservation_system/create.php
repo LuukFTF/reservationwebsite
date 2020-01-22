@@ -106,7 +106,7 @@ if (isset($_POST['submit'])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link href="/css/main.css" type="text/css" rel="stylesheet">
@@ -119,26 +119,29 @@ if (isset($_POST['submit'])) {
 
 
 <main class="main">
+    <div class="container page">
     <form
         action=""
         method="post"
         <p>Customer ID: <input type="text" name="id_customer" value='<?=$id_customer?>'</p>
         <p>E-Mail: <input type="text" name="email" value='<?=$email?>'></p>
-        <p>Massage type: <input type="text" name="massage_type" value='<?=$massage_type?>'></p>
-        <p>Date: <input type="text" name="date" value='<?=$date?>'></p>
+        <p>Massage type: <select name="massage_type"></p>
+        <option value="" selected="selected">Selecteer Massage</option>
+        <option value="1">Sport therapie</option>
+        <option value="2">Massage</option>
+        <option value="3">Medical taping</option>
+        <option value="4">Triggerpoint therapie</option>
+        <option value="5">ADHD</option>
+        </select>
+        <p>Date: <input type="date" name="date" value='<?=$date?>'></p>
         <p>Begin Time: <input type="time" name="begin_time" value='<?=$begin_time?>'></p>
-        <p>Ending Time: <input type="time" name="ending_time" value='<?=$ending_time?>'></p>
-        <p>Status: <input type="text" name="status" value='<?=$status?>'></p>
         <p>Customer Message: <textarea name="message_customer"><?=$message_customer?></textarea></p>
-        <p>Moderator Message: <textarea name="message_moderator"><?=$message_moderator?></textarea></p>
-        <p>Date Updated: <input type="text" name="date_created" value='<?=$date_created?>'></p>
-        <p>Date Updated: <input type="text" name="date_updated" value='<?=$date_updated?>'></p>
         <p><input type="checkbox" name="tc" value="ok" value='<?=$tc?>'> I accept the terms &amp; conditions </p>
         <input type="submit" name="submit" value="Register Account">
     </form>
 
 
-
+    </div>
 
 </main>
 

@@ -41,6 +41,7 @@ $x = '';
 <h1></h1>
 
 <main class="main">
+    <div class="container page">
     <h2><a href="create.php">Create</a></h2>
 
     <table>
@@ -89,6 +90,7 @@ $x = '';
         </tfoot>
     </table>
 
+    </div>
 </main>
 
 </body>

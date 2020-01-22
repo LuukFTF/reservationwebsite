@@ -5,15 +5,15 @@
  */
 
 body {
-    background-color: #000000;
-    color: #d3dede;
+    background-color: #FFFFFF;
+    color: #2a2a2a;
     font-family: 'Arial';
     margin: 0;
     padding: 0;
 }
 
 a {
-    color: deeppink;
+    color: #a62629;
 }
 
 .menu {
@@ -24,13 +24,16 @@ a {
     flex-grow: 1;
     text-align: center;
     list-style-type: none;
+
 }
 
 .menu-item > a {
     text-decoration: none;
     display: inline-block;
     padding: 20px;
-    background-color: #2d3535;
+    color: white;
+    background-color: #a62629;
+    box-shadow: 4px 4px 5px black;
 }
 
 .logo {
@@ -44,7 +47,7 @@ a {
 }
 
 .main {
-    background-color: #15000a;
+    background-color: #f5f5f5;
     display: block;
 
     margin: 0 auto;
@@ -57,7 +60,7 @@ a {
 }
 
 .header {
-    background-color: #313737;
+    background-color: #212529;
     display: block;
 
     margin: 0 auto;
@@ -69,8 +72,10 @@ a {
 }
 
 .page {
-    background-color: #2a2a2a;
+    background-color: #FFFFFF;
     display: block;
+
+    box-shadow: 4px 4px 5px #91baba;
 
     margin: 0 auto;
 
@@ -82,7 +87,7 @@ a {
 }
 
 .footer {
-    background-color: #313737;
+    background-color: #212529;
     display: inline-block;
 
     margin: 0 auto;

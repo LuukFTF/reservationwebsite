@@ -1,7 +1,7 @@
 <header class="header">
     <nav>
         <ul class="menu">
-            <h1 class="logo">Sense</h1>
+            <h1 class="logo" style="font-size: 25px; color: white;">Sense</h1>
             <li class="menu-item"><a href="/">Home</a></li>
             <li class="menu-item"><a href="/reservation_system/create.php">Register</a></li>
             <li class="menu-item"><a href="/loginsystem/adminpanel.php">Accounts</a></li>

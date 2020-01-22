@@ -50,6 +50,7 @@ $user =  mysqli_fetch_assoc($result);
 <main class="main">
 
     <div class="container">
+
         <?php printf('
             <p>id<p/>
             <h2>%s</h2>
